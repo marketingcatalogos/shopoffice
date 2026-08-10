@@ -1,6 +1,6 @@
-'use strict';
-document.addEventListener('DOMContentLoaded', function () {
-
+ 
+function () {
+document.addEventListener('DOMContentLoaded',
   /* ---------- Menu hambúrguer (overlay mobile) ---------- */
   var navToggle = document.getElementById('navToggle');
   var navClose = document.getElementById('navClose');
