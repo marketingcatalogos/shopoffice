@@ -94,7 +94,7 @@ section[id] { scroll-margin-top: 100px; }
 @keyframes drift-b { from { transform: translate(0,0) scale(1); } to { transform: translate(-40px,-50px) scale(1.06); } }
 
 .reveal {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(28px);
   transition: opacity 0.8s cubic-bezier(.16,.8,.3,1), transform 0.8s cubic-bezier(.16,.8,.3,1);
 }
