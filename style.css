@@ -13,7 +13,7 @@
   --sage-soft: #E7E6D8;
   --sage-dark: #3E4530;
 }
- 
+
 * { -webkit-tap-highlight-color: transparent; }
 
 html { scroll-behavior: smooth; }
