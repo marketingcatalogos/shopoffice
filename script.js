@@ -1,11 +1,10 @@
-document.addEventListener('DOMContentLoaded', 
-function () {
+document.addEventListener('DOMContentLoaded', function () {
 
   /* ---------- Menu hambúrguer (overlay mobile) ---------- */
   var navToggle = document.getElementById('navToggle');
   var navClose = document.getElementById('navClose');
   var navOverlay = document.getElementById('navOverlay');
-}
+
   function openNav() {
     navOverlay.classList.remove('hidden');
     navOverlay.classList.add('flex');
@@ -122,6 +121,5 @@ function () {
       window.location.href = 'mailto:shopofficevca@gmail.com?subject=' + subject + '&body=' + body;
     });
   }
-}
 
 });
