@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded',
 
   /* ---------- Menu hambúrguer (overlay mobile) ---------- */
   var navToggle = document.getElementById('navToggle');
