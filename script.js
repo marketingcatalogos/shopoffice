@@ -50,13 +50,12 @@ document.addEventListener('DOMContentLoaded', function () {
     dialog.querySelectorAll('[data-close-modal]').forEach(function (btn) {
       btn.addEventListener('click', function () { dialog.close(); });
     });
-    // Fecha ao clicar fora da caixa de conteúdo (no backdrop)
     dialog.addEventListener('click', function (e) {
       if (e.target === dialog) dialog.close();
     });
   });
 
-  /* ---------- Botões "Orçamento" dos produtos: leva ao formulário já preenchido ---------- */
+  /* ---------- Botões "Orçamento" dos produtos ---------- */
   document.querySelectorAll('[data-request-quote]').forEach(function (el) {
     el.addEventListener('click', function (e) {
       e.preventDefault();
@@ -94,12 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
     revealEls.forEach(function (el) { observer.observe(el); });
   }
 
-  /* ---------- Formulário de contato ----------
-     Página estática, sem back-end: ao enviar, abrimos o e-mail do cliente
-     já preenchido para shopofficevca@gmail.com. Para receber os pedidos
-     diretamente (sem depender do app de e-mail do visitante), conecte
-     este formulário a um serviço como Formspree/EmailJS ou a um back-end
-     próprio futuramente. */
+  /* ---------- Formulário de contato ---------- */
   var contactForm = document.getElementById('contactForm');
   var formStatus = document.getElementById('formStatus');
 
