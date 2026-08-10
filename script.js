@@ -1,6 +1,5 @@
- 
-function () {
-document.addEventListener('DOMContentLoaded',
+document.addEventListener('DOMContentLoaded', function () {
+
   /* ---------- Menu hambúrguer (overlay mobile) ---------- */
   var navToggle = document.getElementById('navToggle');
   var navClose = document.getElementById('navClose');
@@ -124,4 +123,3 @@ document.addEventListener('DOMContentLoaded',
   }
 
 });
-</script>
