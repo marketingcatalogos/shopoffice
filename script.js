@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', function () {
 
   /* ---------- Menu hambúrguer (overlay mobile) ---------- */
   var navToggle = document.getElementById('navToggle');
@@ -121,5 +121,6 @@
       window.location.href = 'mailto:shopofficevca@gmail.com?subject=' + subject + '&body=' + body;
     });
   }
+}
 
 });
